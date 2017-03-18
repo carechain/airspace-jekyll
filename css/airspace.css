@@ -355,7 +355,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
-  max-height: 200px;
+  max-width: 200px;
 }
 /*---------------------------------------------
 					Work Start
