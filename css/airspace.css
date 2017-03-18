@@ -53,7 +53,7 @@ a:active {
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 42px;
   font-weight: 600;
 }
 .section-title p {
@@ -85,7 +85,7 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
-  font-size: 15px;
+  font-size: 23px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -122,13 +122,13 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 67px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 34px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -170,7 +170,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
 }
 #service .service-item i {
-  font-size: 60px;
+  font-size: 90px;
   color: #4A4656;
 }
 #service .service-item h4 {
@@ -182,7 +182,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #888;
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 1.8;
 }
 /*--
@@ -213,17 +213,17 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 20px;
   line-height: 33px;
   margin: 0;
-  font-size: 30px;
+  font-size: 45px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 21px;
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
   border: none;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 23px;
   color: #333333;
   margin-top: 30px;
 }
@@ -289,10 +289,10 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 30px 0 30px;
 }
 #testimonial .counter-box li i {
-  font-size: 35px;
+  font-size: 52px;
 }
 #testimonial .counter-box li h4 {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
 }
 #testimonial .counter-box li span {
@@ -319,8 +319,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel .user p {
   padding-bottom: 0;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 30px;
   color: #353241;
 }
 #testimonial .testimonial-carousel .user p span {
@@ -338,7 +338,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
   background: #5C5C5C;
-  font-size: 30px;
+  font-size: 45px;
   display: inline-block;
   border: 0px;
 }
@@ -386,17 +386,17 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #global-header .block h1 {
   font-weight: 100;
-  font-size: 45px;
-  letter-spacing: 6px;
+  font-size: 67px;
+  letter-spacing: 9px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
 }
 #global-header .block p {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
 }
 /*--
 	portfolio-work Start
@@ -418,8 +418,8 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 0px 25px;
   cursor: pointer;
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 60px;
   font-weight: 600;
   color: #333333;
   text-transform: capitalize;
@@ -434,8 +434,8 @@ font header .navbar-default .navbar-nav li a:hover {
   position: absolute;
   font-family: 'FontAwesome';
   bottom: -18px;
-  font-size: 30px;
-  width: 20px;
+  font-size: 45px;
+  width: 30px;
   left: 0px;
   right: 0px;
   top: 23px;
@@ -453,8 +453,8 @@ font header .navbar-default .navbar-nav li a:hover {
   position: absolute;
   font-family: 'FontAwesome';
   bottom: -18px;
-  font-size: 30px;
-  width: 20px;
+  font-size: 45px;
+  width: 30px;
   left: 0px;
   right: 0px;
   top: 24px;
@@ -490,16 +490,16 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  font-size: 22px;
+  font-size: 33px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 15px;
+  font-size: 23px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
-  font-size: 13px;
+  font-size: 20px;
   color: #655E7A;
 }
 #portfolio-work .block .portfolio-contant ul img {
@@ -579,8 +579,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #wrapper-work ul li .items-text p {
   padding-top: 30px;
-  font-size: 16px;
-  line-height: 27px;
+  font-size: 24px;
+  line-height: 42px;
   font-weight: 300;
   padding-right: 80px;
 }
@@ -682,8 +682,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 27px;
 }
 /*--
 	wrapper-contact Start
@@ -693,8 +693,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .address-block li i {
   margin-right: 15px;
-  font-size: 20px;
-  width: 20px;
+  font-size: 30px;
+  width: 30px;
 }
 .social-icons {
   margin-top: 40px;
@@ -709,7 +709,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .social-icons i {
   color: #2C2C2C;
   margin-right: 25px;
-  font-size: 25px;
+  font-size: 37px;
 }
 .google-map {
   position: relative;
@@ -727,7 +727,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
