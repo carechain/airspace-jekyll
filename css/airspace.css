@@ -16,6 +16,7 @@
 body {
   font-family: 'Avenir', sans-serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 23px;
 }
 h1,
 h2,
