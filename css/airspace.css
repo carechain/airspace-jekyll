@@ -42,6 +42,9 @@ ul {
   margin: 0;
   list-style: none;
 }
+li {
+  font-size: 23px;
+}
 a,
 a:active,
 a:focus,
