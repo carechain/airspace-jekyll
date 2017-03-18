@@ -663,6 +663,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #contact-form .block form .form-group .form-control {
   background: #F6F8FA;
+  font-size: 23px;
   height: 60px;
   border: 1px solid #EEF2F6;
   box-shadow: none;
