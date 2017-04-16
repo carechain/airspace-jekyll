@@ -160,10 +160,22 @@ var cy = cytoscape({
       { data: { source: 'torsten', target: 'uppsala' } },
       { data: { source: 'torsten', target: 'next' } },
       { data: { source: 'torsten', target: 'oracle' } },
+      { data: { source: 'torsten', target: 'hp' } },
       { data: { source: 'torsten', target: 'salientpoint' } },
       { data: { source: 'torsten', target: 'ericsson' } },
       { data: { source: 'torsten', target: 'combient' } },
       { data: { source: 'torsten', target: 'provivus' } },
+      { data: { source: 'theresa', target: 'illinois' } },
+      { data: { source: 'theresa', target: 'torsten' } },
+      { data: { source: 'theresa', target: 'hp' } },
+      { data: { source: 'theresa', target: 'ericsson' } },
+      { data: { source: 'theresa', target: 'salientpoint' } },
+      { data: { source: 'theresa', target: 'saab' } },
+      { data: { source: 'theresa', target: 'provivus' } },
+      { data: { source: 'anders', target: 'uppsala' } },
+      { data: { source: 'anders', target: 'ericsson' } },
+      { data: { source: 'anders', target: 'combient' } },
+      { data: { source: 'anders', target: 'provivus' } }
     ]
   },
 
