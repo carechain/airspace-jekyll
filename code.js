@@ -34,59 +34,136 @@ var cy = cytoscape({
         'target-arrow-color': '#ffaaaa',
         'curve-style': 'bezier'
       })
-    .selector('#bird')
+    .selector('#hp')
       .css({
         'background-image': 'http://carechain.io/nodes/hp.png'
       })
-    .selector('#cat')
-      .css({
-        'background-image': 'https://farm2.staticflickr.com/1261/1413379559_412a540d29_b.jpg'
+    .selector('#hollieann')
+        .css({
+          'background-image': 'http://carechain.io/nodes/hollieann.png'
       })
-    .selector('#ladybug')
-      .css({
-        'background-image': 'https://farm4.staticflickr.com/3063/2751740612_af11fb090b_b.jpg'
+    .selector('#combient')
+        .css({
+          'background-image': 'http://carechain.io/nodes/combient.png'
       })
-  .selector('#aphid')
+    .selector('#mycube')
       .css({
-        'background-image': 'https://farm9.staticflickr.com/8316/8003798443_32d01257c8_b.jpg'
+        'background-image': 'http://carechain.io/nodes/mycube.png'
       })
-  .selector('#rose')
+  .selector('#johan')
       .css({
-        'background-image': 'https://farm6.staticflickr.com/5109/5817854163_eaccd688f5_b.jpg'
+        'background-image': 'http://carechain.io/nodes/johan.png'
       })
-  .selector('#grasshopper')
+  .selector('#salientpoint')
       .css({
-        'background-image': 'https://farm7.staticflickr.com/6098/6224655456_f4c3c98589_b.jpg'
+        'background-image': 'http://carechain.io/nodes/salientpoint.png'
       })
-  .selector('#plant')
+  .selector('#illinois')
       .css({
-        'background-image': 'https://farm1.staticflickr.com/231/524893064_f49a4d1d10_z.jpg'
+        'background-image': 'http://carechain.io/nodes/illinois.png'
       })
-  .selector('#wheat')
+  .selector('#next')
       .css({
-        'background-image': 'https://farm3.staticflickr.com/2660/3715569167_7e978e8319_b.jpg'
+        'background-image': 'http://carechain.io/nodes/next.png'
+      })
+  .selector('#provivus')
+      .css({
+        'background-image': 'http://carechain.io/nodes/provivus.png'
+      })
+  .selector('#ericsson')
+      .css({
+        'background-image': 'http://carechain.io/nodes/ericsson.png'
+      })
+  .selector('#saab')
+      .css({
+        'background-image': 'http://carechain.io/nodes/saab.png'
+      })
+  .selector('#oracle')
+      .css({
+        'background-image': 'http://carechain.io/nodes/oracle.png'
+      })
+  .selector('#torsten')
+      .css({
+        'background-image': 'http://carechain.io/nodes/torsten.png'
+      })
+  .selector('#uppsala')
+      .css({
+        'background-image': 'http://carechain.io/nodes/uppsala.png'
+      })
+  .selector('#ucla')
+      .css({
+        'background-image': 'http://carechain.io/nodes/ucla.png'
+      })
+  .selector('#theresa')
+      .css({
+        'background-image': 'http://carechain.io/nodes/theresa.png'
+      })
+  .selector('#cdc')
+      .css({
+        'background-image': 'http://carechain.io/nodes/cdc.png'
+      })
+  .selector('#anders')
+      .css({
+        'background-image': 'http://carechain.io/nodes/anders.png'
+      })
+  .selector('#kth')
+      .css({
+        'background-image': 'http://carechain.io/nodes/kth.png'
+      })
+  .selector('#advatar')
+      .css({
+        'background-image': 'http://carechain.io/nodes/advatar.png'
+      })
+  .selector('#icon')
+      .css({
+        'background-image': 'http://carechain.io/nodes/icon.png'
       }),
 
   elements: {
     nodes: [
-      { data: { id: 'cat' } },
-      { data: { id: 'bird' } },
-      { data: { id: 'ladybug' } },
-      { data: { id: 'aphid' } },
-      { data: { id: 'rose' } },
-      { data: { id: 'grasshopper' } },
-      { data: { id: 'plant' } },
-      { data: { id: 'wheat' } }
+      { data: { id: 'hollieann' } },
+      { data: { id: 'combient' } },
+      { data: { id: 'mycube' } },
+      { data: { id: 'johan' } },
+      { data: { id: 'salientpoint' } },
+      { data: { id: 'illinois' } },
+      { data: { id: 'next' } },
+      { data: { id: 'ericsson' } },
+      { data: { id: 'saab' } },
+      { data: { id: 'oracle' } },
+      { data: { id: 'torsten' } },
+      { data: { id: 'uppsala' } },
+      { data: { id: 'ucla' } },
+      { data: { id: 'theresa' } },
+      { data: { id: 'cdc' } },
+      { data: { id: 'anders' } },
+      { data: { id: 'kth' } },
+      { data: { id: 'icon' } },
+      { data: { id: 'hp' } },
+      { data: { id: 'advatar' } },
+      { data: { id: 'provivus' } }
     ],
     edges: [
-      { data: { source: 'cat', target: 'bird' } },
-      { data: { source: 'cat', target: 'grasshopper' } },
-      { data: { source: 'bird', target: 'ladybug' } },
-      { data: { source: 'bird', target: 'grasshopper' } },
-      { data: { source: 'grasshopper', target: 'plant' } },
-      { data: { source: 'grasshopper', target: 'wheat' } },
-      { data: { source: 'ladybug', target: 'aphid' } },
-      { data: { source: 'aphid', target: 'rose' } }
+      { data: { source: 'hollieann', target: 'kth' } },
+      { data: { source: 'hollieann', target: 'johan' } },
+      { data: { source: 'hollieann', target: 'ucla' } },
+      { data: { source: 'hollieann', target: 'advatar' } },
+      { data: { source: 'johan', target: 'kth' } },
+      { data: { source: 'johan', target: 'hollieann' } },
+      { data: { source: 'johan', target: 'cdc' } },
+      { data: { source: 'johan', target: 'icon' } },
+      { data: { source: 'johan', target: 'advatar' } },
+      { data: { source: 'johan', target: 'saab' } },
+      { data: { source: 'johan', target: 'ericsson' } },
+      { data: { source: 'johan', target: 'combient' } },
+      { data: { source: 'johan', target: 'provivus' } },
+      { data: { source: 'torsten', target: 'uppsala' } },
+      { data: { source: 'torsten', target: 'next' } },
+      { data: { source: 'torsten', target: 'oracle' } },
+      { data: { source: 'torsten', target: 'salientpoint' } },
+      { data: { source: 'torsten', target: 'ericsson' } },
+      { data: { source: 'torsten', target: 'combient' } },
+      { data: { source: 'torsten', target: 'provivus' } },
     ]
   },
 
