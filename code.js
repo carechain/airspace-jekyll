@@ -145,14 +145,13 @@ var cy = cytoscape({
     ],
     edges: [
       { data: { source: 'hollieann', target: 'kth' } },
-      { data: { source: 'hollieann', target: 'johan' } },
       { data: { source: 'hollieann', target: 'ucla' } },
       { data: { source: 'hollieann', target: 'advatar' } },
       { data: { source: 'johan', target: 'kth' } },
-      { data: { source: 'johan', target: 'hollieann' } },
       { data: { source: 'johan', target: 'cdc' } },
       { data: { source: 'johan', target: 'icon' } },
       { data: { source: 'johan', target: 'advatar' } },
+      { data: { source: 'johan', target: 'mycube' } },
       { data: { source: 'johan', target: 'saab' } },
       { data: { source: 'johan', target: 'ericsson' } },
       { data: { source: 'johan', target: 'combient' } },
@@ -166,7 +165,6 @@ var cy = cytoscape({
       { data: { source: 'torsten', target: 'combient' } },
       { data: { source: 'torsten', target: 'provivus' } },
       { data: { source: 'theresa', target: 'illinois' } },
-      { data: { source: 'theresa', target: 'torsten' } },
       { data: { source: 'theresa', target: 'hp' } },
       { data: { source: 'theresa', target: 'ericsson' } },
       { data: { source: 'theresa', target: 'salientpoint' } },
@@ -181,7 +179,7 @@ var cy = cytoscape({
 
   layout: {
     name: 'breadthfirst',
-    directed: true,
+    directed: false,
     padding: 10
   }
 }); // cy init
