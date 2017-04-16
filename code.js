@@ -36,7 +36,7 @@ var cy = cytoscape({
       })
     .selector('#bird')
       .css({
-        'background-image': 'http://carechain.io/node/hp.png'
+        'background-image': 'http://carechain.io/nodes/hp.png'
       })
     .selector('#cat')
       .css({
