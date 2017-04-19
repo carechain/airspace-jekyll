@@ -146,6 +146,7 @@ var cy = cytoscape({
     edges: [
       { data: { source: 'hollieann', target: 'kth' } },
       { data: { source: 'hollieann', target: 'ucla' } },
+      { data: { source: 'hollieann', target: 'icon' } },
       { data: { source: 'hollieann', target: 'advatar' } },
       { data: { source: 'hollieann', target: 'provivus' } },
       { data: { source: 'johan', target: 'kth' } },
