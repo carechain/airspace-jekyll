@@ -72,7 +72,11 @@ var cy = cytoscape({
       })
   .selector('#ericsson')
       .css({
-        'background-image': 'http://carechain.io/nodes/ericsson.png'
+            'background-image': 'http://carechain.io/nodes/ericsson.png'
+      })
+  .selector('#eniro')
+      .css({
+            'background-image': 'http://carechain.io/nodes/eniro.png'
       })
   .selector('#saab')
       .css({
@@ -98,9 +102,9 @@ var cy = cytoscape({
       .css({
         'background-image': 'http://carechain.io/nodes/theresa.png'
       })
-  .selector('#cdc')
+  .selector('#head')
       .css({
-        'background-image': 'http://carechain.io/nodes/cdc.png'
+        'background-image': 'http://carechain.io/nodes/head.png'
       })
   .selector('#anders')
       .css({
@@ -135,7 +139,8 @@ var cy = cytoscape({
       { data: { id: 'uppsala' } },
       { data: { id: 'ucla' } },
       { data: { id: 'theresa' } },
-      { data: { id: 'cdc' } },
+      { data: { id: 'eniro' } },
+      { data: { id: 'head' } },
       { data: { id: 'anders' } },
       { data: { id: 'kth' } },
       { data: { id: 'icon' } },
@@ -150,7 +155,7 @@ var cy = cytoscape({
       { data: { source: 'hollieann', target: 'advatar' } },
       { data: { source: 'hollieann', target: 'provivus' } },
       { data: { source: 'johan', target: 'kth' } },
-      { data: { source: 'johan', target: 'cdc' } },
+      { data: { source: 'johan', target: 'head' } },
       { data: { source: 'johan', target: 'icon' } },
       { data: { source: 'johan', target: 'advatar' } },
       { data: { source: 'johan', target: 'mycube' } },
@@ -160,6 +165,7 @@ var cy = cytoscape({
       { data: { source: 'johan', target: 'provivus' } },
       { data: { source: 'torsten', target: 'uppsala' } },
       { data: { source: 'torsten', target: 'next' } },
+      { data: { source: 'torsten', target: 'eniro' } },
       { data: { source: 'torsten', target: 'oracle' } },
       { data: { source: 'torsten', target: 'hp' } },
       { data: { source: 'torsten', target: 'salientpoint' } },
@@ -174,6 +180,7 @@ var cy = cytoscape({
       { data: { source: 'theresa', target: 'provivus' } },
       { data: { source: 'anders', target: 'uppsala' } },
       { data: { source: 'anders', target: 'ericsson' } },
+      { data: { source: 'anders', target: 'eniro' } },
       { data: { source: 'anders', target: 'combient' } },
       { data: { source: 'anders', target: 'provivus' } }
     ]
