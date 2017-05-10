@@ -82,7 +82,7 @@ header .navbar-brand {
   vertical-align: middle;
 }
 header .navbar-default {
-  background: none;
+  background: white;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
