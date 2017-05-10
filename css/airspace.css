@@ -85,6 +85,10 @@ header .navbar-default {
   background: white;
   border: 0px;
 }
+header .navbar-brand {
+  padding-top: 15px;
+}
+
 header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
