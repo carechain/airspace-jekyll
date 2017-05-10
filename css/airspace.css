@@ -85,8 +85,9 @@ header .navbar-default {
   background: white;
   border: 0px;
 }
+
 header .navbar-brand {
-  padding-top: 5px;
+  vertical-align: middle;
 }
 
 header .navbar-default .navbar-nav {
